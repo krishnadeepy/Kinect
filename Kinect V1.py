@@ -1,7 +1,7 @@
 from pykinect import nui
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import time
+import time, os
 
 def skeleton_frame_ready(frame):
     skeletons = frame.SkeletonData
