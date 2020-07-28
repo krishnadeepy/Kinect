@@ -1,5 +1,6 @@
 from pykinect import nui
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
+import os
 
 class body(object):
     def __init__(self):
